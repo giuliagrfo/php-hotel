@@ -62,36 +62,7 @@ $hotels = [
 <body>
     <div class="container">
         <h1 class="text-center m-4">Hotels</h1>
-        <!-- <div class="row">
-            <div class="col bg-primary rounded-3 g-0">
-                <div class="name">Name:</div>
-                <div class="description">Description:</div>
-                <div class="parking">Parking:</div>
-                <div class="vote">Vote:</div>
-                <div class="distance">Distance to center:</div>
-            </div>
-
-            <?php foreach ($hotels as $hotel) : ?>
-                <div class="col rounded-3 g-0">
-                    <div class="name"><?php echo $hotel['name'] ?></div>
-                    <div class="description"><?php echo $hotel['description'] ?></div>
-                    <div class="parking">
-                        <?php
-                        if ($hotel['parking']) {
-                            echo 'This Hotel has parking';
-                        } else {
-                            echo 'No parking';
-                        } ?>
-                    </div>
-                    <div class="vote"><?php echo $hotel['vote'] ?></div>
-                    <div class="distance"><?php echo $hotel['distance_to_center'] ?></div>
-
-                </div>
-            <?php endforeach; ?>
-        </div> -->
-
         <table class="table table-dark table-md">
-
             <tbody>
                 <tr>
                     <th>
